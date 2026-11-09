@@ -1,0 +1,7 @@
+build/
+.dart_tool/
+pubspec.lock
+media/
+example/ios/Pods/
+example/build/
+example/.dart_tool/

@@ -1,0 +1,43 @@
+name: tour_kit
+description: Customisable spotlight tutorials for any Flutter app, with scrolling, tab switching, theming, localisation and right-to-left support.
+version: 0.1.0
+repository: https://github.com/abbas-alayan25/tour_kit/tree/main/packages/tour_kit
+issue_tracker: https://github.com/abbas-alayan25/tour_kit/issues
+publish_to: none
+
+topics:
+  - tutorial
+  - onboarding
+  - coach-mark
+  - spotlight
+
+screenshots:
+  - description: 'The whole tour, from the first step to the last.'
+    path: screenshots/00_demo.gif
+  - description: "A centred welcome card with progress dots and a don't show again option."
+    path: screenshots/01_welcome.png
+  - description: 'Rich content: any widget in the card, shown above the highlight.'
+    path: screenshots/02_rich_content.png
+  - description: 'Interactive step: taps reach the real button under the highlight.'
+    path: screenshots/03_tap_through.png
+  - description: 'Oval cut-out with a pointer arrow, switching tabs by itself.'
+    path: screenshots/04_oval_pointer.png
+  - description: 'A lazy list item that was not built yet, found by scrolling first.'
+    path: screenshots/05_lazy_list.png
+  - description: 'A step that follows the tour onto another screen.'
+    path: screenshots/06_other_screen.png
+  - description: 'Tap the highlighted switch to continue.'
+    path: screenshots/07_tap_the_highlight.png
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

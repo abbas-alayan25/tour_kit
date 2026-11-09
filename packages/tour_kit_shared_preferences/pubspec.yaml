@@ -1,0 +1,22 @@
+name: tour_kit_shared_preferences
+description: Remembers which tour_kit tutorials the user has seen, using shared_preferences.
+version: 0.1.0
+repository: https://github.com/abbas-alayan25/tour_kit/tree/main/packages/tour_kit_shared_preferences
+issue_tracker: https://github.com/abbas-alayan25/tour_kit/issues
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.3
+  tour_kit:
+    path: ../tour_kit
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

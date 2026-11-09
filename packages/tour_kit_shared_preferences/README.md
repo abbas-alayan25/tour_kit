@@ -1,6 +1,6 @@
 # tour_kit_shared_preferences
 
-A `TourStorage` for [`tour_kit`](../tour_kit) that remembers finished tours with `shared_preferences`.
+A `TourStorage` for [`tour_kit`](https://pub.dev/packages/tour_kit) that remembers finished tours with `shared_preferences`.
 
 ```dart
 final storage = await SharedPreferencesTourStorage.create();

@@ -3,7 +3,6 @@ description: Customisable spotlight tutorials for any Flutter app, with scrollin
 version: 0.1.0
 repository: https://github.com/abbas-alayan25/tour_kit/tree/main/packages/tour_kit
 issue_tracker: https://github.com/abbas-alayan25/tour_kit/issues
-publish_to: none
 
 topics:
   - tutorial

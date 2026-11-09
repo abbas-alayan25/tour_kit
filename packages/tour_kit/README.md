@@ -3,8 +3,6 @@
 Spotlight tutorials for any Flutter app: highlight a widget, explain it, move to the next step.
 Works with scrolling screens, tabs, right-to-left languages, and any theme.
 
-> Status: 0.1.0, local package. Not yet published.
-
 ![The whole tour](screenshots/00_demo.gif)
 
 ## Screenshots
